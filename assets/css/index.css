@@ -1,0 +1,51 @@
+body {
+  /* background-color: #ccc; */
+  background-color: #9fadbf;
+}
+
+#logo-image {
+  height: 56px;
+}
+
+.collapsing {
+  -webkit-transition: none;
+  transition: none !important;
+}
+
+.my-image-bg {
+  height: 550px;
+  /* height: 100%; */
+  vertical-align: middle;
+  background-image: url(../images/Duluth_7439.jpg) ;
+  background-repeat: no-repeat ;
+  background-position: 50% -100px ; /* Keep this */
+  /* background-size: 100% ; */
+  background-color: transparent ;
+  background-size: cover;
+  background-attachment: fixed;  /* Don't scroll with the page */
+}
+.transparent-container {
+  background: transparent;
+}
+.space-for-navbar {
+  height: 82px;
+}
+.temp-filler-div {
+  height: 300px;
+  background: transparent;
+}
+ul#footer-list li {
+  display:inline;
+}
+.my-link:link, a:visited {
+  display: inline-block;
+  color: white;
+  font-style: italic;
+}
+.examples-div {
+  background-color: #9fadbf;
+}
+.contact-info, .sales-pitch {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
