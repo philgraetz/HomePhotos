@@ -5,6 +5,9 @@ body {
 #logo-image {
   height: 56px;
 }
+#phil-image {
+  height: 100px;
+}
 
 .collapsing {
   -webkit-transition: none;
